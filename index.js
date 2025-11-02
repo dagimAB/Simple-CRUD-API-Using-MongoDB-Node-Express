@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://dagim79:dagi79282367abraham@backenddb.aqbo2jf.mongodb.net/Node-API?appName=BackendDB"
+    "mongodb+srv://dagim79:<my-password>@backenddb.aqbo2jf.mongodb.net/Node-API?appName=BackendDB"
   )
   .then(() => {
     console.log("Connected to the database.");
